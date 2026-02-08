@@ -45,8 +45,15 @@ Analysis confirmed repeated authentication failures targeting a local account wi
 - Endpoint monitoring fundamentals  
 
 ## Screenshots
-See `/screenshots` folder for evidence of:
-- Sysmon installation and logs  
-- Failed login events  
-- Successful login events  
-- Event details
+
+| # | Screenshot | Description |
+|---|------------|-------------|
+| 1 | 01_sysmon_install.png | Sysmon installed via PowerShell |
+| 2 | 02_sysmon_logs.png | Sysmon Operational log list |
+| 3 | 03_sysmon_event_details.png | Sysmon event details (Image, CommandLine, User) |
+| 4 | 04_attack_command.png | Created local fakeuser account |
+| 5 | 05_failed_logins.png | Failed login events (4625) |
+| 6 | 06_failed_login_details.png | Failed login event details |
+| 7 | 07_successful_logins.png | Successful login events (4624) |
+| 8 | 08_sysmon_logs_repeat.png | Sysmon log list after activity |
+| 9 | 09_sysmon_event_details_repeat.png | Another Sysmon event detail |
